@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hwb(196 9% 23%);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Style pour le conteneur de la navigation */
+.navigation {
+    text-align: right; /* Aligne les éléments à droite */
+}
+
+/* Style pour les éléments de navigation */
+.navigation a {
+    text-decoration: none;
+    margin-right: 40px; /* Ajoute une marge à droite entre les éléments de navigation */
+    color: hsl(0, 0%, 2%); /* Couleur du texte */
+    display: inline-block; /* Affiche les éléments côte à côte */
+    
+}
+
+/* Style pour les logos */
+.navigation a img {
+    width: 30px; /* Ajustez la largeur des logos selon vos besoins */
+    height: 20px; /* Ajustez la hauteur des logos selon vos besoins */
+    margin-right: 5px; /* Ajoute une marge à droite des logos */
+}
+
+/* Changement de couleur au survol des liens */
+.navigation a:hover {
+    color: hwb(196 9% 23%);
+}
+
+.hero {
+    width: 100%; /* La largeur de la section occupera 100% de la largeur de son conteneur parent */
+    height: 300px; /* La hauteur de la section, ajustez selon vos besoins */
+    background-color: #f0f0f0; /* Couleur de fond de la section */
+    text-align: center; /* Centrer le contenu horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    max-width: 100%; /* L'image ne dépassera pas la largeur de sa section parente */
+    max-height: 100%; /* L'image ne dépassera pas la hauteur de sa section parente */
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.feature {
+    text-align: center;
+}
+
+footer {
+    background-color: hwb(196 9% 23%);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
